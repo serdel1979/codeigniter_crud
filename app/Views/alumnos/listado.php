@@ -1,10 +1,10 @@
 <div class="container">
 
 
-    <div class="card">
+    <div class="card" style="margin-top: 20px;">
         <div class="card-body">
             <h5 class="card-title">Listado de alumnos</h5>
-            <table class="table">
+            <table class="table" style="margin-top: 20px;">
                 <thead>
                     <tr>
                         <th scope="col">#</th>

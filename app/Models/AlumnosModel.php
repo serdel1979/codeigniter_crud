@@ -18,5 +18,11 @@ class AlumnosModel extends Model{
     }
 
 
+    public function add($dato){
+       return $this->save($dato);
+    }
+
+
+
 }
 

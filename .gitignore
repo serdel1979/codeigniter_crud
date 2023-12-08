@@ -24,3 +24,24 @@ application/logs/*
 ### CodeIgniter Patch ###
 
 # End of https://www.toptal.com/developers/gitignore/api/codeigniter
+
+# CodeIgniter
+/application/config/*
+/application/logs/*
+/application/cache/*
+/system/database/*
+/system/core/*
+/system/helpers/*
+/system/language/*
+/system/libraries/*
+/system/logs/*
+/system/sparks/*
+/system/third_party/*
+/system/fonts/*
+/user_guide/*
+/index.php
+/*.md
+
+# Visual Studio Code
+.vscode/
+/writable

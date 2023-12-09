@@ -22,6 +22,13 @@ class AlumnosModel extends Model{
        return $this->save($dato);
     }
 
+    public function getAlumno($id){
+        return $this->find($id);
+    }
+
+    public function deletAlumno($id){
+        return $this->delete($id);
+    }
 
 
 }
